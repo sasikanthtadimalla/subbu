@@ -390,6 +390,16 @@ body{
   }
 }
 
+.fa-bars {
+
+}
+
+@media (min-width: 992px) {
+  .fa-bars {
+    visibility: hidden;
+  }
+}
+
 .navbar-toggler {
 
 }
