@@ -1,0 +1,692 @@
+/********************************************** HTML Selectors *********************************************/
+body{
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  width: auto;
+  overflow-x: hidden;
+}
+
+/********************************************** Title Section *********************************************/
+#title{
+  background: url('../images/bg-4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 3rem;
+  padding-bottom: 3.5rem;
+  position: relative;
+}
+
+@media (max-width: 481px) {
+  #title {
+    padding-top: 1.5rem;
+  }
+}
+
+.title-left-column{
+  padding-top: 10rem;
+  padding-left: 10rem;
+}
+
+@media (max-width: 1506px){
+  .title-left-column {
+    padding-left: 7rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .title-left-column {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.title-h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 8rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+@media (max-width: 1506px){
+  .title-h1{
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .title-h1 {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 481px) {
+  .title-h1 {
+    font-size: 4rem;
+  }
+}
+
+.title-h3{
+  text-align: left;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 1506px){
+  .title-h3{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .title-h3 {
+    margin: 4rem 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 481px) {
+  .title-h3 {
+    font-size: 1.5rem;
+  }
+}
+
+.title-right-column{
+  padding-top: 4rem;
+}
+
+.title-img{
+  width: 50%;
+}
+
+@media (max-width: 1351px){
+  .title-img{
+    margin-left: 7rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .title-img {
+    margin: 0;
+  }
+}
+
+.title-h4{
+  font-family: 'Patrick Hand', cursive;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+@media (max-width: 1351px){
+  .title-h4{
+    margin-left: 8rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .title-h4 {
+    margin-left: 0;
+  }
+}
+
+.title-heart{
+  position: absolute;
+}
+
+.t-h-1{
+  bottom: 28rem;
+  left: 35rem;
+  transform: rotate(35deg);
+}
+
+@media (max-width: 1351px){
+  .t-h-1{
+    bottom: 24rem;
+  }
+}
+
+@media (max-width: 1201px) {
+  .t-h-1{
+    left: 25rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .t-h-1 {
+    /* visibility: hidden; */
+    left: 45rem;
+    bottom: 20rem;
+  }
+}
+
+@media (max-width: 769px) {
+  .t-h-1 {
+    left: 40rem;
+  }
+}
+
+@media (max-width: 481px) {
+  .t-h-1{
+    left: 20rem;
+  }
+}
+
+@media (max-width: 361px) {
+  .t-h-1{
+    left: 15rem;
+  }
+}
+
+.t-h-2{
+  right: 40rem;
+  top: 25rem;
+  transform: rotate(-25deg);
+}
+
+@media (max-width: 1351px){
+  .t-h-2{
+    right: 35rem;
+  }
+}
+
+@media (max-width: 1201px) {
+  .t-h-2{
+    right: 30rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .t-h-2 {
+    /* visibility: hidden; */
+    right: 7rem;
+    top: 39rem;
+  }
+}
+
+@media (max-width: 481px) {
+  .t-h-2 {
+    /* visibility: hidden; */
+    right: 25rem;
+    top: 30rem;
+  }
+}
+
+@media (max-width: 361px) {
+  .t-h-2 {
+    /* visibility: hidden; */
+    right: 17rem;
+    top: 25rem;
+  }
+}
+
+.t-h-3{
+  left: 40rem;
+  top: 28rem;
+  transform: rotate(45deg);
+}
+
+@media (max-width: 1201px) {
+  .t-h-3{
+    top: 25rem;
+    left: 30rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .t-h-3 {
+    /* visibility: hidden; */
+    top: 63rem;
+    left: 8rem;
+  }
+}
+
+@media (max-width: 769px) {
+  .t-h-3 {
+    top: 55rem;
+    left: 6rem;
+  }
+}
+
+@media (max-width: 481px) {
+  .t-h-3 {
+    top: 45rem;
+    left: 24rem;
+  }
+}
+
+@media (max-width: 361px) {
+  .t-h-3 {
+    /* top: 45rem; */
+    left: 18rem;
+  }
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+.t-h-4{
+  left: 40rem;
+  transform: rotate(38deg);
+}
+
+@media (max-width: 1351px){
+  .t-h-4{
+    left: 35rem;
+  }
+}
+
+@media (max-width: 1201px) {
+  .t-h-4{
+    left: 31rem;
+  }
+}
+
+@media (max-width: 1061px) {
+  .t-h-4{
+    left: 28rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .t-h-4 {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 361px) {
+  .t-h-4 {
+    /* visibility: visible; */
+    /* color: blue; */
+    left: 15rem;
+  }
+}
+
+
+.t-h-5{
+  left: 35rem;
+  bottom: 7rem;
+  transform: rotate(-25deg);
+}
+
+@media (max-width: 1351px){
+  .t-h-5{
+    left: 38rem;
+    bottom: 1rem;
+  }
+}
+
+@media (max-width: 1281px) {
+  .t-h-5{
+    left: 28rem;
+    top: 29rem;
+  }
+}
+
+@media (max-width: 1201px) {
+  .t-h-5{
+    top: 28rem;
+  }
+}
+
+@media (max-width: 1061px) {
+  .t-h-5{
+    top: 25rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .t-h-5{
+    visibility: hidden;
+
+  }
+}
+
+@media (max-width: 361px) {
+  .t-h-5 {
+    /* visibility: visible; */
+    /* color: blue; */
+    left: 20rem;
+  }
+}
+
+/******************* Navigation Bar ***************/
+.navbar {
+  padding-left: 9rem;
+  padding-right: 9rem;
+}
+
+@media (max-width: 1351px){
+  .navbar {
+    padding-left: 6rem;
+    padding-right: 5rem;
+  }
+}
+
+@media (max-width: 481px){
+  .navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.brand-img {
+
+}
+
+@media (max-width: 481px) {
+  .brand-img {
+    transform: scale(0.7);
+  }
+}
+
+.navbar-toggler-icon {
+
+}
+
+@media (max-width: 481px) {
+  .navbar-toggler-icon {
+    transform: scale(0.7);
+
+  }
+}
+
+.navbar-toggler {
+
+}
+
+@media (max-width: 481px) {
+  .navbar-toggler {
+    transform: scale(0.7);
+
+  }
+}
+
+.nav-link{
+  margin: 0 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 4px;
+}
+
+@media (max-width: 1281px) {
+  .nav-link {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 481px) {
+  .nav-link{
+    margin-right: 0;
+  }
+}
+
+.nav-item{
+    color: #822659;
+}
+
+.nav-link:hover{
+  color: inherit;
+}
+
+/************** Media Queries ************/
+
+/********************************************** Likings Section *********************************************/
+#likings-section{
+  background-color: #f875aa;
+  padding-top: 5rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: #822659;
+  position: relative;
+}
+
+.likings-outer-div{
+  /* position: relative; */
+}
+
+.likings-inner-div{
+
+}
+
+.likings-img{
+  width: 10%;
+}
+
+.likings-h2{
+  margin-bottom: 6rem;
+  font-weight: bold;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+.img-left{
+  float: left;
+  margin-right: 2.5rem;
+  margin-left: 7rem;
+}
+
+.img-right{
+  float: right;
+  margin-left: 2.5rem;
+  margin-right: 7rem;
+}
+
+/* @media (max-width: 361px) {
+  .img-right {
+    margin-right: 0;
+  }
+} */
+
+.likings-left-h4{
+  font-family: 'Sacramento', cursive;
+  text-align: left;
+  font-weight: bold;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.likings-left-p{
+  text-align: left;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.likings-right-h4{
+  font-family: 'Sacramento', cursive;
+  text-align: right;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* @media (max-width: 361px) {
+  .likings-right-h4{
+    text-align: left;
+  }
+} */
+
+.likings-right-p{
+  text-align: right;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.liking-row{
+  margin-bottom: 8rem;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+}
+
+.liking-row-left{
+  padding-right: 20rem;
+}
+
+.liking-row-right{
+  padding-left: 20rem;
+}
+
+@media (max-width: 361px) {
+  .liking-row-right {
+    padding-left: 0;
+  }
+}
+
+.likings-row-bottom{
+  font-size: 1.4rem;
+  padding-bottom: 5rem;
+  letter-spacing: 2px;
+  padding-right: 20rem;
+}
+
+.likings-inner-div{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.balloon-img-top{
+  position: absolute;
+  left: 85rem;
+  top: 10rem;
+}
+
+@media (max-width: 991px) {
+  .balloon-img-top {
+    left: 40rem;
+  }
+}
+
+@media (max-width: 481px) {
+  .balloon-img-top {
+    left: 20rem;
+  }
+}
+
+.balloon-img-bottom{
+  position: absolute;
+  right: 85rem;
+  bottom: 20rem;
+}
+
+/********************************************** Costumes Section *********************************************/
+#costumes-section{
+  background-color: #ea2c62;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.costumes-h2{
+  padding-bottom: 6rem;
+}
+
+.carousel-item{
+  text-align: right;
+}
+
+.costumes-img {
+  width: 30%;
+  float: left;
+  margin-left: 15rem;
+}
+
+.costumes-h5{
+  font-family: 'Sacramento', cursive;
+  font-size: 3.5rem;
+  padding-top: 10rem;
+  padding-right: 18rem;
+  letter-spacing: 2px;
+  line-height: 1.5 ;
+}
+
+.gallery-text{
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 5rem;
+  letter-spacing: 3px;
+}
+
+.gallery-button{
+  display: block;
+  margin: 6rem auto;
+
+}
+
+#costumes-carousel{
+  margin-bottom: 5rem;
+}
+
+.carousel-control-prev-icon{
+  transform: scale(1.5);
+}
+
+.carousel-control-next-icon{
+  transform: scale(1.5);
+}
+/********************************************** Contact Me Section *********************************************/
+
+#contact-me{
+  background-color: #f875aa;
+  padding: 4rem 0 0;
+  position: relative;
+}
+
+.contact-me-h2{
+  margin-bottom: 4rem;
+}
+
+.contact-me-h4{
+  margin-bottom: 3.5rem;
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  color: #822659;
+  font-weight: bold;
+}
+
+.contact-me-p{
+  margin-bottom: 3.5rem;
+  /* font-family: 'Patrick Hand', cursive; */
+  font-size: 1rem;
+  /* font-weight: bold; */
+  letter-spacing: 2px;
+}
+
+.btn-lg{
+  margin-bottom: 5rem;
+}
+
+.butterfly-left {
+  position: absolute;
+  left: 13rem;
+  top: 7rem;
+  transform: rotate(50deg);
+}
+
+.butterfly-right {
+  position: absolute;
+  right: 20rem;
+}
+/********************************************** Footer Section *********************************************/
+#footer{
+  background-color: #ea2c62;
+  padding: 1rem 0;
+}
+
+.attribution-link{
+  color: #fff;
+  text-decoration: underline;
+}
+
+.copyright{
+  margin-bottom: 0;
+}
+/********************************************** ATTRIBUTION PAGE *********************************************/
+.attribution-body{
+  background-color: #f875aa;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+ .attribution-link{
+ }
