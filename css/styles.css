@@ -458,10 +458,6 @@ body{
 
 }
 
-.likings-img{
-  width: 10%;
-}
-
 .likings-h2{
   margin-bottom: 6rem;
   font-weight: bold;
@@ -470,10 +466,47 @@ body{
   color: #fff;
 }
 
+.likings-img{
+  width: 10%;
+}
+
+@media (max-width: 769px) {
+  .likings-img {
+    width: 20%;
+    margin-bottom: 9rem;
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 481px) {
+  .likings-img {
+    padding: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 361px) {
+  .likings-img {
+    width: 15%;
+  }
+}
+
 .img-left{
   float: left;
   margin-right: 2.5rem;
   margin-left: 7rem;
+}
+
+@media (max-width: 1281px) {
+  .img-left {
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 361px) {
+  .img-left {
+    margin-left: 5rem;
+  }
 }
 
 .img-right{
@@ -482,11 +515,25 @@ body{
   margin-right: 7rem;
 }
 
-/* @media (max-width: 361px) {
+@media (max-width: 1281px) {
   .img-right {
-    margin-right: 0;
+    padding-top: 1rem;
   }
-} */
+}
+
+@media (max-width: 481px) {
+  .img-right {
+    margin-left: 0;
+    /* padding-left: 3rem; */
+    margin-right: 6rem;;
+  }
+}
+
+@media (max-width: 361px) {
+  .img-right {
+    margin-right: 5rem;
+  }
+}
 
 .likings-left-h4{
   font-family: 'Sacramento', cursive;
@@ -496,10 +543,57 @@ body{
   letter-spacing: 2px;
 }
 
+@media (max-width: 481px) {
+  .likings-left-h4 {
+    padding-top: 2rem;
+    margin-left: 5rem;
+  }
+}
+
+@media (max-width: 361px) {
+  .likings-left-h4 {
+    font-size: 2rem;
+    padding-top: 1rem;
+  }
+}
+
+.softness {
+
+}
+
+@media (max-width: 481px) {
+  .softness {
+    margin-left: 14rem;
+    padding-top: 1rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 361px) {
+  .softness {
+    margin-left: 10rem;
+    margin-bottom: 4rem;
+  }
+}
+
 .likings-left-p{
   text-align: left;
   color: #fff;
   font-size: 1.2rem;
+}
+
+@media (max-width: 769px) {
+  .likings-left-p {
+    padding-left: 12rem;
+  }
+}
+
+@media (max-width: 481px) {
+  .likings-left-p {
+    padding: 0 2rem;
+    text-align: center;
+    margin-top: 3rem;
+  }
 }
 
 .likings-right-h4{
@@ -510,16 +604,35 @@ body{
   letter-spacing: 2px;
 }
 
-/* @media (max-width: 361px) {
+@media (max-width: 481px) {
   .likings-right-h4{
     text-align: left;
+    margin-right: 15rem;
+    margin-bottom: 4rem;
+    padding-left: 5rem;
+    padding-top: 1.3rem;
   }
-} */
+}
+
+@media (max-width: 361px) {
+  .likings-right-h4 {
+    font-size: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 4rem;
+  }
+}
 
 .likings-right-p{
   text-align: right;
   color: #fff;
   font-size: 1.2rem;
+}
+
+@media (max-width: 481px) {
+  .likings-right-p {
+    text-align: center;
+    padding: 0 2rem;
+  }
 }
 
 .liking-row{
@@ -532,8 +645,34 @@ body{
   padding-right: 20rem;
 }
 
+@media (max-width: 769px) {
+  .liking-row-left {
+    padding-right: 7rem;
+  }
+}
+
+@media (max-width: 481px) {
+  .liking-row-left {
+    padding-right: 0;
+
+  }
+}
+
 .liking-row-right{
   padding-left: 20rem;
+}
+
+@media (max-width: 769px) {
+  .liking-row-right {
+    padding-left: 7rem;
+  }
+}
+
+@media (max-width: 481px) {
+  .liking-row-right{
+    padding-left: 0;
+
+  }
 }
 
 @media (max-width: 361px) {
@@ -549,6 +688,18 @@ body{
   padding-right: 20rem;
 }
 
+@media (max-width: 769px) {
+  .likings-row-bottom {
+    padding-right: 8rem;
+  }
+}
+
+@media (max-width: 481px) {
+  .likings-row-bottom {
+    padding-right: 0;
+  }
+}
+
 .likings-inner-div{
   width: 50%;
   margin-left: auto;
@@ -561,6 +712,12 @@ body{
   top: 10rem;
 }
 
+@media (max-width: 1411px) {
+  .balloon-img-top {
+    left: 75rem;
+  }
+}
+
 @media (max-width: 991px) {
   .balloon-img-top {
     left: 40rem;
@@ -570,6 +727,8 @@ body{
 @media (max-width: 481px) {
   .balloon-img-top {
     left: 20rem;
+    visibility: hidden;
+
   }
 }
 
@@ -579,6 +738,30 @@ body{
   bottom: 20rem;
 }
 
+@media (max-width: 1411px) {
+  .balloon-img-bottom {
+    right: 80rem;
+  }
+}
+
+@media (max-width: 1281px) {
+  .balloon-img-bottom {
+    right: 73rem;
+  }
+}
+
+@media (max-width: 769px) {
+  .balloon-img-bottom {
+    right: 42rem;
+    bottom: 15rem;
+  }
+}
+
+@media (max-width: 481px) {
+  .balloon-img-bottom {
+    visibility: hidden;
+  }
+}
 /********************************************** Costumes Section *********************************************/
 #costumes-section{
   background-color: #ea2c62;
